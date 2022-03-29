@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     aws = {
-      source = "hashicorp/aws"
+      source  = "hashicorp/aws"
       version = "~> 3.27"
     }
   }
@@ -11,7 +11,7 @@ terraform {
 
 provider "aws" {
   default = "default"
-  region = "us-east-2"
+  region  = "us-east-2"
 }
 
 resource "aws_lightsail_instance" "nodejs_terraform" {
