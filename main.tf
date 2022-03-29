@@ -10,7 +10,8 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-2"
+  profile = "grant"
+  region  = "us-east-1"
 }
 
 resource "aws_lightsail_instance" "nodejs_terraform" {
