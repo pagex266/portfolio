@@ -23,4 +23,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 /yarn.lock
-/.idea/*
+/.idea/aws.xml
+/.idea/modules.xml
+/.idea/portfolio.iml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
+/.idea/.gitignore
